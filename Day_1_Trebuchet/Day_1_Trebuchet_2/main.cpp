@@ -6,7 +6,7 @@
 
 #include <array>
 
-#define MAX_BUFFER_SIZE 512
+#define MAX_BUFFER_SIZE 256
 
 void processDigit(char *buf, size_t& idx, int *i) {
     switch (*buf) {
