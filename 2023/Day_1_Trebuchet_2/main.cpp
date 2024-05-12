@@ -4,8 +4,6 @@
 #include <assert.h>
 #include <time.h>
 
-#include <array>
-
 #define MAX_BUFFER_SIZE 256
 
 void processDigit(char *buf, size_t& idx, int *i) {
